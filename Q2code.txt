@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            object-fit: cover();
+            background-position: centre;
+            }
+        .container{
+            display:flex;
+            justify-content: centre;
+            align-items: centre;
+            height:600px;
+            margin: 2px solid black;
+            width: 600px;
+        }
+        .container li{
+            list-style:none;
+            margin: 5px 0px 15px 0px;
+        }
+        input{
+            height:20px;
+            padding-left: 5px;
+        }
+        label{
+            color:black;
+        }
+        .container ul{
+            padding:40px  50px 50px;
+            background: transparent;
+            border-radius: 10px;
+            border: 1px solid black;
+            background: tomato;
+         }
+         h3{
+             marging-bottom:50px;
+             text-align: center;
+             color: white;
+         }
+         #submit{
+             display: block;
+             marging:auto;
+             margin-top: 30px;
+             height: 25px;
+             width:150px;
+             background-color: rgb(255, 0, 98);
+         }
+         #clear{
+             diplay: block;
+             margin: auto;
+             margin-top: 30px ;
+             width:150px;
+             height: 20px;
+             
+         }
+
+
+    </style>
+</head>
+<body>
+    <div class ="container">
+        <ul>
+            <h3>login form</h3>
+            <form method="POST"ONSUBMIT="return unvalidation()">
+                <libel for = "">USERNAME</libel>
+                <li><input id="NAME" type="NAME"required></li>
+                <label for ="">PASSWORD</label>
+                <li><input id="number" type="number"not required></li>
+                <label for ="">EMAIL ID</label>
+                <li><input id="emailid" type="email id"required></li>
+                <li><input id="SUBMIT" type="SUBMIT"value="SUBMIT"></li>
+                <li><input id="CLEAR"type="CLEAR"value="CLEAR"required></li>
+                
+
+            </form>
+        </ul>
+    </div>
+    
+</body>
+</html>
